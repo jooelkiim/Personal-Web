@@ -74,6 +74,7 @@ li {
 
 .grey {
 	color: #c6c6cc;
+	font-family: 'Raleway', sans-serif;
 }
 
 .button {
@@ -105,6 +106,7 @@ li {
 .p {
 	text-align: left;
 	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .paragraph {

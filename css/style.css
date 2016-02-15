@@ -85,10 +85,9 @@ li {
 /*ABOUT*/
 
 .joelkim {
-	width: 210px;
-	height: 210px;
+	width: 250px;
+	height: 250px;
 	border-radius: 100%;
-	margin-top: 50px;
 }
 
 .about {
@@ -109,13 +108,56 @@ li {
 	font-family: 'Raleway', sans-serif;
 }
 
-.paragraph {
-	margin-top: 25px;
-	margin-bottom: 50px;
+.marginAbout {
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
+
+/*Projects*/
+.oldWeb {
+	width: 350px;
+	height: 175px;
+	margin-bottom: 20px;
+}
+
+.project {
+	color: #c6c6cc;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-bottom-color: #27546e;
+	font-family: 'Oswald', serif;
+	margin-bottom: 20px;
+}
+
+.pageProject {
+	background-color: #222;
+}
+
+.projectPage {
+	color: #c6c6cc;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	font-size: 15px;
+}
+
+.marginProject {
+	margin-top: 50px;
+}
+
+
 
 @media (max-width: 500px){
 	.pic {
 		display: none;
+	}
+
+	.projectPage {
+		text-align: center;
+	}
+
+	.oldWeb {
+		width: 250px;
+		height: 125px;
 	}
 }

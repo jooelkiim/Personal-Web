@@ -1,3 +1,44 @@
+/*General*/
+
+a:hover {
+	color: #27546e;
+	text-decoration: none;
+}
+
+a {
+	color: #222;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #222;
+}
+
+@media (max-width: 500px){
+	.pic {
+		display: none;
+	}
+
+	.projectPage {
+		text-align: center;
+	}
+
+	.p {
+		text-align: center;
+	}
+
+.contactDetails {
+	text-align: center;
+	}
+}
+
+@media (max-width: 870px) {
+	.oldWeb {
+		width: 300px;
+		height: 150px;
+	}
+}
+
 /*LANDING PAGE*/
 
 .col-sm-5 {
@@ -75,6 +116,7 @@ li {
 .grey {
 	color: #c6c6cc;
 	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
 }
 
 .button {
@@ -100,17 +142,22 @@ li {
 	color: #222;
 	border-bottom: 2px solid black;
 	border-bottom-color: #27546e;
+	text-align: center;
 }
 
 .p {
 	text-align: left;
-	font-size: 15px;
+	font-size: 17px;
 	font-family: 'Raleway', sans-serif;
 }
 
 .marginAbout {
 	margin-top: 90px;
 	margin-bottom: 90px;
+}
+
+.aboutTwo {
+	margin-top: 30px;
 }
 
 /*Projects*/
@@ -132,32 +179,39 @@ li {
 
 .pageProject {
 	background-color: #222;
+	padding: 35px 0;
 }
 
 .projectPage {
 	color: #c6c6cc;
 	font-family: 'Raleway', sans-serif;
 	text-align: right;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .marginProject {
 	margin-top: 50px;
 }
 
+/*CONTACT*/
 
-
-@media (max-width: 500px){
-	.pic {
-		display: none;
-	}
-
-	.projectPage {
-		text-align: center;
-	}
-
-	.oldWeb {
-		width: 250px;
-		height: 125px;
-	}
+.contactDetails {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
 }
+
+.contact {
+	margin: 90px 0;
+}
+
+.footer {
+	text-align: center;
+	font-size: 16px;
+	color: #c6c6cc;
+	background-color: #222;
+	margin-bottom: 0;
+	padding: 15px 0;
+	font-family: 'Raleway', sans-serif;
+}
+

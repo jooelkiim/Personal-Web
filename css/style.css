@@ -5,14 +5,14 @@ a:hover {
 	text-decoration: none;
 }
 
-a {
+/*a {
 	color: #222;
-}
+}*/
 
-a:visited {
+/*a:visited {
 	text-decoration: none;
 	color: #222;
-}
+}*/
 
 @media (max-width: 500px){
 	.pic {
@@ -139,7 +139,7 @@ li {
 .nice {
 	font-family: 'Oswald', serif;
 	font-size: 40px;
-	color: #222;
+	color: #2c2c2c;
 	border-bottom: 2px solid black;
 	border-bottom-color: #27546e;
 	text-align: center;
@@ -147,7 +147,7 @@ li {
 
 .p {
 	text-align: left;
-	font-size: 17px;
+	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -193,25 +193,33 @@ li {
 	margin-top: 50px;
 }
 
+.gitHub {
+	color: #27546e;
+}
+
 /*CONTACT*/
 
 .contactDetails {
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
+	color: #27546e;
 }
 
 .contact {
-	margin: 90px 0;
+	margin: 120px 0;
 }
 
 .footer {
 	text-align: center;
 	font-size: 16px;
 	color: #c6c6cc;
-	background-color: #222;
 	margin-bottom: 0;
 	padding: 15px 0;
 	font-family: 'Raleway', sans-serif;
+}
+
+.footerColor {
+	background-color: #222;
 }
 

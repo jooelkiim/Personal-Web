@@ -9,7 +9,18 @@ a:hover {
 	.pic {
 		display: none;
 	}
+	.oldWeb {
+		width: 300;
+		height: 150;
+	}
 }
+
+/*@media (max-width: 400px){
+	.oldWeb {
+		width: 300;
+		height: 150;
+	}
+}*/
 
 /*LANDING PAGE*/
 
@@ -102,7 +113,10 @@ li {
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	box-shadow: 5px 4px 3px 2px #2c2c2c;
+	box-shadow: 3px 3px 2px 2px #2c2c2c;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about {
@@ -141,11 +155,14 @@ li {
 
 /*Projects*/
 .oldWeb {
-	width: 340px;
-	height: 170px;
+	width: 360px;
+	height: 180px;
 	margin-bottom: 20px;
 	border: 3.7px solid black;
 	border-color: #c6c6cc;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project {

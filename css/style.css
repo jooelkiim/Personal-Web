@@ -37,8 +37,8 @@ body {
 }
 
 .italics {
-	font-family: 'Old Standard TT', serif;
-	font-size: 47px;
+	font-family: 'Marck Script', cursive;
+	font-size: 49px;
 	padding-top: 100px;
 	-webkit-animation-delay: 0.1s;
   -webkit-animation-duration: 1.5s;
@@ -221,3 +221,6 @@ li {
 	background-color: #222;
 }
 
+.jimmy {
+	font-size: 10em;
+}
